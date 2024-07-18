@@ -48,6 +48,20 @@ const NavBar = (props) => {
 							>
 								<Link to="/contact">Contact</Link>
 							</li>
+							<li
+								className={
+									active === "contact"
+										? "nav-item active"
+										: "nav-item"
+								}
+							>
+								<a
+									href="/resume.pdf"
+									download="Arun_Kumar_Sinha_Resume.pdf"
+								>
+									Resume
+								</a>
+							</li>
 						</ul>
 					</div>
 				</nav>
